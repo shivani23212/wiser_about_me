@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shivani Dave</title>
+
+        <!-- link to css file -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- normalise differences between browsers -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"> -->
+        <!-- font awesome - link to use all icons -->
+        <script src="https://kit.fontawesome.com/48100862b7.js" crossorigin="anonymous"></script>
+
+
+        <!-- google fonts used - CHANGE -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="Images/shivani_logo.png" class="logo-img" alt=""> <!-- made logo with Canva -->
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav-item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav__link">Who I Am</a></li>
+                    <li class="nav-item"><a href="#typical-day" class="nav__link">A Typical Day</a></li>
+                    <li class="nav-item"><a href="#hobbies" class="nav__link">Hobbies</a></li>
+                    <!-- <li class="nav-item"><a href="#" class="nav__link">Philosophy</a></li> -->
+                </ul>
+            </nav>
+        </header>
+
+        <!------------------------------------------------ Hero Section --------------------------------------------------------->
+
+        <!-- I use classes for styling, ids for anchoring -->
+        <section class="hero" id="home">
+            <h1 class="section__title section__title--intro">
+                Hey Wiser, I'm <strong>Shivani</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">your next ambassador</p>
+            <img src="Images/shivani.jpeg" class="intro-img" alt="Picture of Shivani smiling.">
+        </section>
+
+        <!-- Who I am -->
+
+        <div class="about-me-bkg">
+        <section class="about-me" id="about-me">
+            <h2 class="section__title section__title--about-me">Who I Am</h2>
+            <p class="section__subtitle section__subtitle--about-me">lmao do i even kno</p>
+
+            <div class="about-me__body">
+                <p>Cupcake ipsum dolor sit amet dessert halvah I love cupcake. 
+                    Bear claw pastry gummies jelly beans danish I love chocolate bar powder chocolate. 
+                    Jelly carrot cake lemon drops topping I love jujubes caramels. Pudding 
+                    tiramisu gummi bears dessert tart cookie oat cake.</p>
+
+                <p>Cupcake ipsum dolor sit amet dessert halvah I love cupcake. 
+                        Bear claw pastry gummies jelly beans danish I love chocolate bar powder chocolate. 
+                        Jelly carrot cake lemon drops topping I love jujubes caramels. Pudding 
+                        tiramisu gummi bears dessert tart cookie oat cake.</p>
+            </div>
+
+            <img src="Images/shivani-field.jpg" class="about-me-img" alt="Shivani standing in a field.">
+        </section>
+        </div>
+        <!------------------------------------------------ A Typical Day  --------------------------------------------------------->
+
+         <!-- a typical day (edit) -->
+         <section class="typical-day" id="typical-day">
+            <h2 class="section__title section__title--typical-day">A day in the life...</h2>
+            <div class="days">
+                <div class="day">
+                    <h3>Current Day (at home)</h3>
+                    <p>Cupcake ipsum dolor sit amet dessert halvah I love cupcake. 
+                        Bear claw pastry gummies jelly beans danish I love chocolate bar powder chocolate. 
+                        Jelly carrot cake lemon drops topping I love jujubes caramels. Pudding 
+                        tiramisu gummi bears dessert tart cookie oat cake.</p>
+                </div> <!--close day -->
+
+                <div class="day">
+                    <h3>University Day</h3>
+                    <p>Cupcake ipsum dolor sit amet dessert halvah I love cupcake. 
+                        Bear claw pastry gummies jelly beans danish I love chocolate bar powder chocolate. 
+                        Jelly carrot cake lemon drops topping I love jujubes caramels. Pudding 
+                        tiramisu gummi bears dessert tart cookie oat cake.</p>
+                </div> <!--close day -->
+
+                <div class="day">
+                    <h3>Rest Day</h3>
+                    <p>Cupcake ipsum dolor sit amet dessert halvah I love cupcake. 
+                        Bear claw pastry gummies jelly beans danish I love chocolate bar powder chocolate. 
+                        Jelly carrot cake lemon drops topping I love jujubes caramels. Pudding 
+                        tiramisu gummi bears dessert tart cookie oat cake.</p>
+                </div> <!--close day -->
+            </div> <!-- close days-->
+
+            <a href="#hobbies" class="btn">My Hobbies</a>
+        </section>
+        <!-- Hobbies -->
+        <section class="my-hobbies" id="hobbies">
+            <h2 class="section__title section__title--my-hobbies">My Hobbies</h2>
+            <p class="section__subtitle section__subtitle-my-hobbies">What I get upto in my free time</p>
+
+            <div class="portfolio">
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="Images/portfolio1.png" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="Images/portfolio2.png" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="Images/portfolio3.png" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="Images/portfolio4.png" alt="" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="Images/portfolio5.png" alt="" class="portfolio__img">
+                </a>
+
+                </a>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <a href="mailto:shivani.dave@warwick.ac.uk" class="footer__link">shivani.dave@warwick.ac.uk</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/shivani-dave-13b25a1b1">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a></li>
+
+                <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                </a></li>
+
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/shivani23212?tab=repositories">
+                    <i class="fa-brands fa-github"></i>
+                </a></li>
+
+                <li class="social-list__item"><a class="social-list__link" href="https://wearewiser.com/">
+                    <i class="fa-solid fa-w"></i>
+                </a></li>
+            </ul>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
