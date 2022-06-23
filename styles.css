@@ -253,9 +253,14 @@ header {
 
 .intro-img {
     box-shadow: var(--box-shadow);
+    margin: 0 auto;
 }
 
-@media (min-width: 600px) {
+.section__subtitle--intro {
+    text-align: center;
+}
+
+@media (min-width: 800px) {
     .hero {
         display: grid;
         width: min-content;
@@ -281,7 +286,7 @@ header {
         text-align: right;
         position: relative;
         left: -1.75em;
-        width: calc(100% + 1.75em);
+        width: calc(110% + 1.75em);
     }
 }
 
@@ -361,11 +366,18 @@ header {
 
 .days {
     margin-bottom: 4em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 .day {
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 450px;
+    margin: 15px;
+    /* margin: 0 auto; */
+
 }
 
 @media (min-width: 800px) {
@@ -471,12 +483,12 @@ header {
 }
 
 .portfolio-item-individual {
-    padding: 0 2em 2em;
+    padding: 0em 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .portfolio-item-individual p {
     max-width: 600px;
-    margin: 2em auto;
+    margin: -2em auto 4em auto;
 } 
